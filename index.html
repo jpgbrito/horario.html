@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta name="autor" content="João Paulo Gomes Brito"
+<meta charset="UTF-8">
+
+
+<title>Home</title>
+</head>
+<body>
+
+    <script>
+
+        //Retorna a data atual.
+
+            document.write ("<H2>Data:<BR>");
+            document.write (Date()); 
+            document.write ("<BR><BR></H2>");
+
+        //Retorna a data atual (formato padrão Brasil)        
+
+            document.write ("<h2>Data - padrão Brasil:<br>")
+
+            const novaData = new Date ();
+
+            document.write (novaData.toLocaleDateString('pt-BR'));
+
+            document.write ("<BR><BR><H2>");
+
+            //Retorna o ano
+            
+            document.write ("<H2>Ano:<BR>");
+           var ano = new Date();
+
+           document.write (ano.getFullYear());
+           document.write ("<BR><BR></H2>");
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
